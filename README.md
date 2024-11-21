@@ -324,6 +324,7 @@ MATRIX MULTIPLY
         None
 
 ### 3.5 Output
+*Hidden layer 100, learning rate 0.05*
 
 ---
 
@@ -493,3 +494,24 @@ Simple
 Split
 
 XOR
+
+#### Timing Comparison
+Size = 64
+* CPU: 0m16.423s
+* GPU:
+
+Size = 128
+* CPU:
+* GPU:
+
+Size = 256
+* CPU:
+* GPU:
+
+Size = 512
+* CPU:
+* GPU:
+
+Size = 1024
+* CPU:
+* GPU:
