@@ -491,29 +491,183 @@ XOR
 #### GPU
 Simple
 
+        Epoch  0  loss  5.653476919386333 correct 36
+        Epoch  10  loss  3.050737938368109 correct 38
+        Epoch  20  loss  0.3806155814302759 correct 40
+        Epoch  30  loss  1.3780694388813943 correct 43
+        Epoch  40  loss  0.8399509655887549 correct 40
+        Epoch  50  loss  1.741994072248817 correct 45
+        Epoch  60  loss  1.3390518560086002 correct 48
+        Epoch  70  loss  0.8894422042448084 correct 49
+        Epoch  80  loss  2.2816275401573742 correct 47
+        Epoch  90  loss  0.8911730915578913 correct 49
+        Epoch  100  loss  0.3294948858576872 correct 50
+        Epoch  110  loss  0.0971920038718351 correct 50
+        Epoch  120  loss  0.3146662759806497 correct 50
+        Epoch  130  loss  0.005904475332073777 correct 50
+        Epoch  140  loss  0.005989480071373091 correct 50
+        Epoch  150  loss  0.22230324196988002 correct 50
+        Epoch  160  loss  0.19993243897329288 correct 50
+        Epoch  170  loss  0.4171856902010167 correct 50
+        Epoch  180  loss  0.004150003593263803 correct 50
+        Epoch  190  loss  0.26005466920793924 correct 50
+        Epoch  200  loss  0.1952392851980256 correct 50
+        Epoch  210  loss  0.0013834090407408694 correct 50
+        Epoch  220  loss  0.186754005555731 correct 50
+        Epoch  230  loss  0.13621618551644166 correct 50
+        Epoch  240  loss  0.1617897603255083 correct 50
+        Epoch  250  loss  0.168428927141727 correct 50
+        Epoch  260  loss  0.10562938454886159 correct 50
+        Epoch  270  loss  0.012299346498863899 correct 50
+        Epoch  280  loss  0.07297861889222033 correct 50
+        Epoch  290  loss  0.20182798715538983 correct 50
+        Epoch  300  loss  0.05150014868141445 correct 50
+        Epoch  310  loss  0.07137328455677908 correct 50
+        Epoch  320  loss  0.19290983506545836 correct 50
+        Epoch  330  loss  0.23754939012624543 correct 50
+        Epoch  340  loss  0.009091544362543164 correct 50
+        Epoch  350  loss  0.0023385075690992604 correct 50
+        Epoch  360  loss  0.0013994321573692536 correct 50
+        Epoch  370  loss  0.08109720586899895 correct 50
+        Epoch  380  loss  0.045300323304017315 correct 50
+        Epoch  390  loss  0.04379473525716264 correct 50
+        Epoch  400  loss  0.03535922402560058 correct 50
+        Epoch  410  loss  0.11657745298292324 correct 50
+        Epoch  420  loss  0.07933116630934715 correct 50
+        Epoch  430  loss  0.08788168644107301 correct 50
+        Epoch  440  loss  0.01347814775644333 correct 50
+        Epoch  450  loss  0.004378486344325647 correct 50
+        Epoch  460  loss  0.027453314343078943 correct 50
+        Epoch  470  loss  0.0469728660841641 correct 50
+        Epoch  480  loss  0.025244605799208848 correct 50
+        Epoch  490  loss  0.024907575569013726 correct 50
+
 Split
 
+        Epoch  0  loss  6.321507120099194 correct 27
+        Epoch  10  loss  6.169214320731644 correct 26
+        Epoch  20  loss  8.028215992820298 correct 29
+        Epoch  30  loss  7.4255461403943155 correct 27
+        Epoch  40  loss  5.258933586386894 correct 27
+        Epoch  50  loss  6.861630717777954 correct 36
+        Epoch  60  loss  9.26717935253749 correct 36
+        Epoch  70  loss  6.56867142042327 correct 37
+        Epoch  80  loss  6.437646089164389 correct 37
+        Epoch  90  loss  4.410368989270879 correct 37
+        Epoch  100  loss  3.604704939778512 correct 37
+        Epoch  110  loss  4.233630248173379 correct 37
+        Epoch  120  loss  2.9641702625441972 correct 37
+        Epoch  130  loss  3.144716848646247 correct 38
+        Epoch  140  loss  2.8970187367290103 correct 38
+        Epoch  150  loss  3.6438189707657243 correct 39
+        Epoch  160  loss  2.977566812909003 correct 39
+        Epoch  170  loss  3.3413746580265107 correct 40
+        Epoch  180  loss  2.719423560336332 correct 41
+        Epoch  190  loss  2.1954256110459913 correct 41
+        Epoch  200  loss  2.324882447646445 correct 41
+        Epoch  210  loss  1.4308627891741013 correct 42
+        Epoch  220  loss  2.252271095438953 correct 42
+        Epoch  230  loss  1.2731617465521257 correct 42
+        Epoch  240  loss  2.050689325783307 correct 42
+        Epoch  250  loss  1.8294744201274558 correct 43
+        Epoch  260  loss  2.1087517195889887 correct 43
+        Epoch  270  loss  0.9732273528850964 correct 43
+        Epoch  280  loss  1.0483075188866802 correct 43
+        Epoch  290  loss  0.7954129496935275 correct 43
+        Epoch  300  loss  1.4878414174586791 correct 43
+        Epoch  310  loss  1.6496169969122718 correct 43
+        Epoch  320  loss  0.8596894785974695 correct 43
+        Epoch  330  loss  1.4471485090577758 correct 43
+        Epoch  340  loss  2.0957846721576563 correct 44
+        Epoch  350  loss  0.7334637174494768 correct 43
+        Epoch  360  loss  1.2728771013537556 correct 43
+        Epoch  370  loss  0.6900894328431106 correct 43
+        Epoch  380  loss  0.7865342839430653 correct 43
+        Epoch  390  loss  0.7076183242333398 correct 44
+        Epoch  400  loss  1.1064410860112308 correct 44
+        Epoch  410  loss  1.087293289432907 correct 44
+        Epoch  420  loss  1.1326735870451026 correct 47
+        Epoch  430  loss  0.9423716308370478 correct 46
+        Epoch  440  loss  0.7203292427686308 correct 45
+        Epoch  450  loss  0.727645633863465 correct 47
+        Epoch  460  loss  0.7527526441767032 correct 48
+        Epoch  470  loss  2.0019420104909815 correct 48
+        Epoch  480  loss  1.2852651048340864 correct 49
+        Epoch  490  loss  1.23965380145004 correct 49
+
 XOR
+
+        Epoch  0  loss  5.88698168775402 correct 28
+        Epoch  10  loss  6.497986318502013 correct 26
+        Epoch  20  loss  6.539058332840805 correct 30
+        Epoch  30  loss  5.206873113777636 correct 31
+        Epoch  40  loss  5.14742372242435 correct 32
+        Epoch  50  loss  5.970245461272347 correct 32
+        Epoch  60  loss  5.111694863666891 correct 34
+        Epoch  70  loss  3.0368481802058374 correct 34
+        Epoch  80  loss  3.3223506620516057 correct 35
+        Epoch  90  loss  4.370301059924375 correct 35
+        Epoch  100  loss  4.335230587832149 correct 37
+        Epoch  110  loss  3.3308891610479754 correct 37
+        Epoch  120  loss  3.7436703689847715 correct 37
+        Epoch  130  loss  2.669750642819955 correct 37
+        Epoch  140  loss  1.7818257611297437 correct 38
+        Epoch  150  loss  2.2474085831925996 correct 42
+        Epoch  160  loss  2.608300554721781 correct 41
+        Epoch  170  loss  2.2570585154401948 correct 40
+        Epoch  180  loss  2.231188497186832 correct 42
+        Epoch  190  loss  1.3682813715612212 correct 40
+        Epoch  200  loss  1.5760652906448895 correct 41
+        Epoch  210  loss  2.7360711390318455 correct 40
+        Epoch  220  loss  1.9900284975961353 correct 40
+        Epoch  230  loss  1.4935848250244352 correct 41
+        Epoch  240  loss  1.1792202886600722 correct 40
+        Epoch  250  loss  2.728970289461002 correct 41
+        Epoch  260  loss  2.8485983354497635 correct 39
+        Epoch  270  loss  0.7506593486959305 correct 41
+        Epoch  280  loss  1.054917577073919 correct 40
+        Epoch  290  loss  1.1396909345195863 correct 42
+        Epoch  300  loss  1.1073056308333833 correct 40
+        Epoch  310  loss  1.293583402435144 correct 43
+        Epoch  320  loss  0.21697954806525896 correct 40
+        Epoch  330  loss  0.7366561954761156 correct 42
+        Epoch  340  loss  0.17210312991867702 correct 41
+        Epoch  350  loss  1.1694026780682798 correct 42
+        Epoch  360  loss  1.7126534756917322 correct 40
+        Epoch  370  loss  0.5289276016774204 correct 42
+        Epoch  380  loss  1.6838016238589946 correct 42
+        Epoch  390  loss  0.9570503219904907 correct 42
+        Epoch  400  loss  0.47165713001826565 correct 42
+        Epoch  410  loss  0.8741001138142888 correct 40
+        Epoch  420  loss  0.9075109290300878 correct 43
+        Epoch  430  loss  1.6695705839180512 correct 43
+        Epoch  440  loss  0.7690691883974383 correct 45
+        Epoch  450  loss  1.4720943433749318 correct 46
+        Epoch  460  loss  0.9179870197464426 correct 48
+        Epoch  470  loss  0.4473856607366423 correct 48
+        Epoch  480  loss  0.7555763280727794 correct 49
+        Epoch  490  loss  0.3882906563963113 correct 50
 
 ---
 
 #### Timing Comparison
+*using simple dataset, learning rate 0.05*
 Size = 64
-* CPU: 0m16.423s
+* Fast: 0m16.423s
 * GPU:
 
 Size = 128
-* CPU:
+* Fast: 0m26.256s
 * GPU:
 
 Size = 256
-* CPU:
+* Fast: 0m39.256s
 * GPU:
 
 Size = 512
-* CPU:
+* Fast: 0m53.446s
 * GPU:
 
 Size = 1024
-* CPU:
+* Fast:
 * GPU:
