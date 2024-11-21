@@ -123,9 +123,9 @@ class Mul(Function):
         """Backward pass for multiplication."""
         t1, t2 = ctx.saved_values
         return (
-           grad_output.f.mul_zip(t2, grad_output),
-           grad_output.f.mul_zip(t1, grad_output),
-       )
+            grad_output.f.mul_zip(t2, grad_output),
+            grad_output.f.mul_zip(t1, grad_output),
+        )
 
 
 class Sigmoid(Function):

@@ -379,6 +379,7 @@ def tensor_reduce(
                 out_idx[reduce_dim] = s
                 j = index_to_position(out_idx, a_strides)
                 out[o] = fn(out[o], a_storage[j])
+
     return _reduce
 
 

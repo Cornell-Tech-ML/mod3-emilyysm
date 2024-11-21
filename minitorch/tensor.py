@@ -365,9 +365,7 @@ class Tensor:
     def sum(self, dim: Optional[int] = None) -> Tensor:
         """Sum the tensor along the specified dimension."""
         if dim is None:
-            return Sum.apply(
-                self.contiguous().view(self.size), self._ensure_tensor(0)
-            )
+            return Sum.apply(self.contiguous().view(self.size), self._ensure_tensor(0))
         else:
             return Sum.apply(self, self._ensure_tensor(dim))
 

@@ -1,10 +1,7 @@
 from __future__ import annotations
 
-from operator import index, ipow
-from termios import OPOST
 from typing import TYPE_CHECKING, TypeVar, Any
 
-from networkx import adamic_adar_index
 import numpy as np
 from numba import prange
 from numba import njit as _njit
@@ -32,7 +29,7 @@ if TYPE_CHECKING:
 Fn = TypeVar("Fn")
 
 
-def njit(fn: Fn, **kwargs: Any) -> Fn:
+def njit(fn: Fn, **kwargs: Any) -> Fn:  # noqa: D103
     return _njit(inline="always", **kwargs)(fn)  # type: ignore
 
 
@@ -172,7 +169,9 @@ def tensor_map(
         in_strides: Strides,
     ) -> None:
         # check stride alignment
-        if np.array_equal(out_strides, in_strides) and np.array_equal(out_shape, in_shape):
+        if np.array_equal(out_strides, in_strides) and np.array_equal(
+            out_shape, in_shape
+        ):
             for i in prange(len(out)):
                 out[i] = fn(in_storage[i])
         else:
@@ -296,7 +295,7 @@ def tensor_reduce(
                 a_idx[j] = out_idx[j]
             a_pos = index_to_position(a_idx, a_strides)
             out[o_pos] = a_storage[a_pos]
-            for s in range(1,a_shape[reduce_dim]):
+            for s in range(1, a_shape[reduce_dim]):
                 a_idx[reduce_dim] = s
                 a_pos = index_to_position(a_idx, a_strides)
                 out[o_pos] = fn(out[o_pos], a_storage[a_pos])
@@ -354,9 +353,7 @@ def _tensor_matrix_multiply(
         for i in range(out_shape[1]):
             for j in range(out_shape[2]):
                 sum = 0.0
-                out_pos = (
-                    n * out_strides[0] + i * out_strides[1] + j * out_strides[2]
-                )
+                out_pos = n * out_strides[0] + i * out_strides[1] + j * out_strides[2]
                 for k in range(a_shape[2]):
                     a_pos = n * a_batch_stride + i * a_strides[1] + k * a_strides[2]
                     b_pos = n * b_batch_stride + k * b_strides[1] + j * b_strides[2]
