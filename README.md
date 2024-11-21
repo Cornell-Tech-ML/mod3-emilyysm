@@ -329,6 +329,7 @@ MATRIX MULTIPLY
 
 #### CPU
 Simple
+
         Epoch  0  loss  4.957051285197779 correct 43
         Epoch  10  loss  1.8269049513763462 correct 50
         Epoch  20  loss  2.2829386318285065 correct 48
@@ -381,6 +382,7 @@ Simple
         Epoch  490  loss  0.4516368772930217 correct 49
 
 Split
+
         Epoch  0  loss  5.257754569275484 correct 42
         Epoch  10  loss  4.1308674998509165 correct 42
         Epoch  20  loss  2.6175188562415097 correct 47
@@ -433,6 +435,7 @@ Split
         Epoch  490  loss  0.33474894324435533 correct 50
 
 XOR
+
         Epoch  0  loss  6.611521055507113 correct 29
         Epoch  10  loss  4.592038628667929 correct 42
         Epoch  20  loss  4.636133685815637 correct 43
