@@ -653,21 +653,23 @@ XOR
 #### Timing Comparison
 *using simple dataset, learning rate 0.05*
 Size = 64
-* Fast: 0m16.423s
-* GPU:
+* Fast: 0.00302
+* GPU: 0.00559
 
 Size = 128
-* Fast: 0m26.256s
-* GPU:
+* Fast: 0.01449
+* GPU: 0.01227
 
 Size = 256
-* Fast: 0m39.256s
-* GPU:
+* Fast: 0.09466
+* GPU: 0.04464
 
 Size = 512
-* Fast: 0m53.446s
-* GPU:
+* Fast: 0.95390
+* GPU: 0.12838
 
 Size = 1024
-* Fast:
-* GPU:
+* Fast: 7.56159
+* GPU: 0.083723
+
+<img src="time_graph.png" width="500"/>
