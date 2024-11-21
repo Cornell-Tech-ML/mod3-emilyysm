@@ -495,6 +495,8 @@ Split
 
 XOR
 
+---
+
 #### Timing Comparison
 Size = 64
 * CPU: 0m16.423s
